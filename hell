@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lokarapu Hemanth | Cyber Security Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #0f172a, #1e293b);
+      color: #e2e8f0;
+    }
+    header {
+      background: #1e293b;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeInDown 1s ease;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      animation: fadeInUp 1s ease;
+    }
+    h2 {
+      color: #38bdf8;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .contact a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #38bdf8;
+      color: #0f172a;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #0ea5e9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lokarapu Hemanth</h1>
+    <p>B.Tech CSE (Cyber Security) | Aspiring Cyber Security Analyst</p>
+    <a class="button" href="mailto:lokarapuhemanth2004@gmail.com">Get in Touch</a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m a dedicated Cyber Security enthusiast with hands-on experience in ethical hacking tools, penetration testing, and secure system design. With a passion for digital protection and a strong academic background, I'm eager to make a real-world impact in securing digital identities.
+    </p>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> C, Python, Java, R</li>
+      <li><strong>Tools:</strong> Kali Linux, Wireshark, Burp Suite, Metasploit, Nmap, Nessus</li>
+      <li><strong>Concepts:</strong> Network Security, Cryptography, Vulnerability Assessment</li>
+      <li><strong>Operating Systems:</strong> Kali Linux, Windows</li>
+    </ul>
+
+    <h2>Certifications & Workshops</h2>
+    <ul>
+      <li>IBM Data Analytics Internship Certificate</li>
+      <li>Java Full Stack Internship – Skill Dzire</li>
+      <li>Ethical Hacking Workshop – JNTUGV</li>
+      <li>Google Cybersecurity Fundamentals (Coursera)</li>
+      <li>5-Day "Art of Hacking with RA" Workshop (May 2025)</li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in CSE – Cyber Security</strong><br />Visakha Institute of Engineering and Technology (2022–2026) – CGPA: 7.5</li>
+      <li><strong>Intermediate:</strong> Sri Chaitanya Junior College (2021–2022) – 81%</li>
+      <li><strong>SSC:</strong> Sarvagna High School (2020) – GPA: 9.5</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p class="contact">
+      📞 +91 82475 83544<br />
+      📧 <a href="mailto:lokarapuhemanth2004@gmail.com">lokarapuhemanth2004@gmail.com</a><br />
+      🔗 <a href="https://www.linkedin.com/in/hemanth-lokarapu-966375293" target="_blank">LinkedIn Profile</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Lokarapu Hemanth | All rights reserved.
+  </footer>
+</body>
+</html>
